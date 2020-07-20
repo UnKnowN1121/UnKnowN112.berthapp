@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #3d4951;
+
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "OmTeloletOm";
+}
+
+.navbar-brand {
+  color: #f5edba;
+}
+.navbar-brand:hover {
+  color: #ffffff;
+}
+.cartLink {
+}
