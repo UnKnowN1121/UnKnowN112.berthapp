@@ -9,6 +9,7 @@ import NoMatch from "./components/NoMatch";
 import Layout from "./components/Layout";
 import NaviBar from "./components/NaviBar";
 import Shop from "./components/Shop";
+import Checkout from "./components/Checkout";
 function App() {
   return (
     <React.Fragment>
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/shop" component={Shop} />
             <Route exact path="/cart" component={Cart} />
+            <Route exact path="/checkout" component={Checkout} />
             <Route exact component={NoMatch} />
           </Switch>
         </Router>
