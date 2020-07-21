@@ -16,7 +16,7 @@
     "react-use-cart": "^1.9.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=41667 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
