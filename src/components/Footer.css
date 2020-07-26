@@ -1,0 +1,19 @@
+footer {
+  background-color: #ffff;
+  bottom: 0;
+  width: 100%;
+  font-family: "OmTeloletOm";
+  font-size: 1.5em;
+}
+footer .container .fa {
+  margin-left: 2em;
+}
+
+@media (max-width: 800px) {
+  footer {
+    font-size: 1em;
+  }
+  footer .container .fa {
+    margin-left: 1.2em;
+  }
+}

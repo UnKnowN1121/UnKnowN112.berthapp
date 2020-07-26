@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont;
+  height: 100%;
+  font-family: "ubuntu-reg";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,7 +11,14 @@ body {
   src: url(../fonts/OmTeloletOm.ttf) format("truetype");
   src: url(../fonts/OmTeloletOm.otf) format("opentype");
 }
-
+@font-face {
+  font-family: "ubuntu";
+  src: url(../fonts/Ubuntu-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ubuntu-reg";
+  src: url(../fonts/Ubuntu-Regular.ttf) format("truetype");
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

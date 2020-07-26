@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import choco from "./images/choco.mp4";
 
 import "./css/App.css";
 import Home from "./components/Home";
@@ -10,22 +9,29 @@ import Layout from "./components/Layout";
 import NaviBar from "./components/NaviBar";
 import Shop from "./components/Shop";
 import Checkout from "./components/Checkout";
+import Footer from "./components/Footer";
+import Success from "./components/success";
+
 function App() {
   return (
-    <React.Fragment>
+    <div id="flex-box">
       <NaviBar />
-      <Layout>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/shop" component={Shop} />
-            <Route exact path="/cart" component={Cart} />
-            <Route exact path="/checkout" component={Checkout} />
-            <Route exact component={NoMatch} />
-          </Switch>
-        </Router>
-      </Layout>
-    </React.Fragment>
+      <div id="article">
+        <Layout>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/shop" component={Shop} />
+              <Route exact path="/cart" component={Cart} />
+              <Route exact path="/checkout" component={Checkout} />
+              <Route exact path="/success" component={Success} />
+              <Route exact component={NoMatch} />
+            </Switch>
+          </Router>
+        </Layout>
+      </div>
+      <Footer />
+    </div>
   );
 }
 

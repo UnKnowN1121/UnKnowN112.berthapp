@@ -1,17 +1,64 @@
+nav .container {
+  width: max-content;
+  margin-left: 1em;
+  padding: 0.5em;
+  border-radius: 50px;
+  font-family: "ubuntu";
+  background: #ffffff; /* fallback for old browsers */
+}
 .navbar {
-  background-color: #3d4951;
-
-  background-position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "OmTeloletOm";
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.nav-item {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+@media (max-width: 800px) {
+  nav .container {
+    width: 100%;
+    margin-left: auto;
+    border-radius: unset;
+    padding: auto;
+  }
+  .navbar {
+    background: #ffffff;
+    position: inherit;
+  }
+  a.floating-cart-icon {
+    position: fixed;
+    top: 5em;
+    right: 0;
+    background-color: white;
+    z-index: 99;
+  }
 }
 
 .navbar-brand {
-  color: #f5edba;
+  font-family: "OmTeloletOm";
+  padding-left: 2em;
 }
-.navbar-brand:hover {
-  color: #ffffff;
+.cartCount {
+  border-radius: 50px;
+  font-family: "ubuntu";
+  background: #ffffff; /* fallback for old browsers */
+  margin-right: 7em;
 }
-.cartLink {
+.navbar-brand,
+a {
+  color: #ff983b;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 152, 59, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: #ff983b;
+}
+.navbar-brand:hover,
+a:hover,
+.navbar-toggler:hover {
+  color: #ff2525;
 }

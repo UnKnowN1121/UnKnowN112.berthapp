@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCart } from "react-use-cart";
 import {
   ListGroup,
@@ -22,33 +22,44 @@ function findQty(data, idToLookFor) {
     }
   }
 }
-
-const Shop = () => {
-  const {
-    addItem,
-    inCart,
-    isEmpty,
-    cartTotal,
-    totalUniqueItems,
-    items,
-    updateItemQuantity,
-    removeItem,
-    emptyCart,
-  } = useCart();
+function grp(data, group) {
+  var result = new Array();
+  console.log(data);
+  console.log(group);
+  for (var i = 0; i < data.length; i++) {
+    if (group === "all") {
+      return data;
+    }
+    if (data[i].group === group) {
+      console.log("yes");
+      result.push(data[i]);
+    }
+  }
+  return result;
+}
+function Shop() {
+  const [prod, setprod] = useState(prodsjs);
+  const { addItem, inCart, items, updateItemQuantity } = useCart();
 
   return (
     <>
       <Row className="mt-5">
         <Col md={3} style={{ marginBottom: "1em" }}>
           <ListGroup className="categories">
-            <ListGroupItem>All Categories</ListGroupItem>
-            <ListGroupItem>Nuts Chocolates</ListGroupItem>
-            <ListGroupItem>Dark Chocolates</ListGroupItem>
+            <ListGroupItem onClick={() => setprod(grp(prodsjs, "all"))}>
+              All Categories
+            </ListGroupItem>
+            <ListGroupItem onClick={() => setprod(grp(prodsjs, "nuts"))}>
+              Nuts
+            </ListGroupItem>
+            <ListGroupItem onClick={() => setprod(grp(prodsjs, "dark"))}>
+              Dark Chocolates
+            </ListGroupItem>
           </ListGroup>
         </Col>
         <Col md={9}>
           <Row>
-            {prodsjs.map((products, index) => {
+            {prod.map((products, index) => {
               const alreadyAdded = inCart(products.id);
 
               return (
@@ -58,7 +69,7 @@ const Shop = () => {
                     <Card.Body>
                       <Card.Img variant="top" src={products.image} />
                       <Card.Title>{products.name}</Card.Title>
-                      <Card.Text>{products.price}</Card.Text>
+                      <Card.Text>{products.price} Rs</Card.Text>
                     </Card.Body>
                     <Card.Footer className="">
                       {alreadyAdded ? (
@@ -101,7 +112,6 @@ const Shop = () => {
                           <Col xs={12} className="text-center">
                             <Button
                               variant=""
-                              Style="width:90%"
                               onClick={() => addItem(products)}
                             >
                               Add to cart
@@ -119,6 +129,6 @@ const Shop = () => {
       </Row>
     </>
   );
-};
+}
 
 export default Shop;

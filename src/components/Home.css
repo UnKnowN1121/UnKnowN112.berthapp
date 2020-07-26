@@ -1,0 +1,28 @@
+.fullscreendiv {
+  justify-content: center;
+  margin-top: 10vh;
+}
+.fullscreendiv div p {
+  font-family: "OmTeloletOm";
+  font-size: 2.9em;
+  color: #ffffff;
+}
+.fullscreendiv div span {
+  color: #ffffff;
+  font-family: ubuntu-reg;
+}
+.float-right {
+}
+.float-left {
+  margin-top: 18%;
+}
+.bgimg {
+  height: 27em;
+}
+.shopdiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

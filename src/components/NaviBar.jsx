@@ -10,30 +10,34 @@ const NaviBar = () => {
   const { totalItems } = useCart();
 
   return (
-    <Navbar expand="lg" variant="white" className="sticky-top">
-      <Layout>
-        <NavbarBrand href="/">Bertha's Chocolate Factory</NavbarBrand>
-        <div>
-          <a href="/cart" className="mr-auto">
-            <i className="fa fa-shopping-cart"></i>
-            <i className="strong">{totalItems}</i>
-          </a>
+    <>
+      <Navbar expand="lg" variant="white">
+        <Layout className="left-nav-bar">
+          <NavbarBrand href="/">Bertha's Chocolate Factory</NavbarBrand>
+
+          <NavbarToggle variant="custom" aria-controls="nav-bar" />
+
+          <NavbarCollapse id="nav-bar">
+            <Nav>
+              <NavItem>
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/shop">Order Online</NavLink>
+              </NavItem>
+            </Nav>
+          </NavbarCollapse>
+        </Layout>
+
+        <div className="cartCount">
+          <NavLink href="/cart" className="floating-cart-icon">
+            <span className="fa fa-shopping-cart"></span>
+            <span> | </span>
+            <span className="">{totalItems}</span>
+          </NavLink>
         </div>
-
-        <NavbarToggle aria-controls="nav-bar" />
-
-        <NavbarCollapse id="nav-bar">
-          <Nav className="mr-auto">
-            <NavItem>
-              <NavLink href="/">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/shop">Order Online</NavLink>
-            </NavItem>
-          </Nav>
-        </NavbarCollapse>
-      </Layout>
-    </Navbar>
+      </Navbar>
+    </>
   );
 };
 

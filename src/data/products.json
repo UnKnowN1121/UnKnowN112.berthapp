@@ -1,55 +1,62 @@
 [
   {
-    "name": "hero Product",
+    "name": "Dark Chocolate",
     "id": 1,
+    "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "10",
     "hero": "OMG This just came out today!",
-    "image": "http://placehold.it/940x300/999/CCC"
+    "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 1",
+    "name": "Dark ChocoBar",
     "id": 2,
+    "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "600",
     "info": "This is the latest and greatest product from Derp corp.",
     "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 2",
+    "name": "HazelNut Chocolate",
     "id": 3,
+    "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",
     "price": "99",
     "offer": "BOGOF",
     "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 3",
+    "name": "Almond Chocolate",
     "id": 4,
+    "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "5",
     "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 4",
+    "name": "Chocolate Dark truffle",
     "id": 5,
+    "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "50",
     "offer": "No srsly GTFO",
     "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 5",
+    "name": "Dark Chocolate sauce",
     "id": 6,
+    "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "100",
     "image": "http://placehold.it/300x300/999/CCC"
   },
   {
-    "name": "Product 6",
+    "name": "caramel nuts and chocolate",
     "id": 7,
+    "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",
-    "price": "99",
+    "price": "240",
     "info": "This is the latest and greatest product from Derp corp.",
     "offer": "info with offer",
     "image": "http://placehold.it/300x300/999/CCC"

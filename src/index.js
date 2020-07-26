@@ -4,15 +4,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import "./fonts/OmTeloletOm.ttf";
 import "./fonts/OmTeloletOm.otf";
+import "./fonts/Ubuntu-Bold.ttf";
+import "./fonts/Ubuntu-Regular.ttf";
 import "./css/index.css";
-import 'font-awesome/css/font-awesome.min.css';
+import "font-awesome/css/font-awesome.min.css";
 import { CartProvider } from "react-use-cart";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
-  <CartProvider>{/* render app/cart here */}
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  </CartProvider>,
+  <>
+    <CartProvider>
+      {/* render app/cart here */}
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </CartProvider>
+  </>,
   document.getElementById("root")
 );
