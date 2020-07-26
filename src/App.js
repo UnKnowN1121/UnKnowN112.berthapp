@@ -14,9 +14,6 @@ function App() {
   return (
     <React.Fragment>
       <NaviBar />
-      <React.Fragment>
-        <video src={choco} autoPlay={true} loop={true} className="bgvideo" />
-      </React.Fragment>
       <Layout>
         <Router>
           <Switch>

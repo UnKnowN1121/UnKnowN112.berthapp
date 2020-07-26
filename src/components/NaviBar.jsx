@@ -10,14 +10,15 @@ const NaviBar = () => {
   const { totalItems } = useCart();
 
   return (
-    <Navbar expand="lg" variant="dark" className="sticky-top">
+    <Navbar expand="lg" variant="white" className="sticky-top">
       <Layout>
         <NavbarBrand href="/">Bertha's Chocolate Factory</NavbarBrand>
         <div>
-        <a href="/cart" className="mr-auto">
-          <i className="fa fa-shopping-cart"></i>
-          <i className="strong">{totalItems}</i>
-        </a></div>
+          <a href="/cart" className="mr-auto">
+            <i className="fa fa-shopping-cart"></i>
+            <i className="strong">{totalItems}</i>
+          </a>
+        </div>
 
         <NavbarToggle aria-controls="nav-bar" />
 
