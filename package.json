@@ -18,8 +18,8 @@
     "react-use-cart": "^1.9.0"
   },
   "scripts": {
-    "start": "node server/server.js",
-    "old_start": "react-scripts start",
+    "Oldstart": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
