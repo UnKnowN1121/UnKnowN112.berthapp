@@ -12,6 +12,7 @@ nav .container {
   width: 100%;
   z-index: 99;
 }
+
 .nav-item {
   padding-left: 5em;
   padding-right: 5em;
@@ -61,4 +62,7 @@ a {
 a:hover,
 .navbar-toggler:hover {
   color: #ff2525;
+}
+.fa-check-circle {
+  color: green;
 }

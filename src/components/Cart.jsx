@@ -62,7 +62,7 @@ const Cart = () => {
                           </div>
                         </th>
                         <td className="border-0 align-middle">
-                          <strong>{cartItem.price} Rs</strong>
+                          <strong>Rs. {cartItem.price}</strong>
                         </td>
                         <td className="border-0 align-middle">
                           <Row>
@@ -115,7 +115,7 @@ const Cart = () => {
                 <td colSpan="3">
                   <h3>Total</h3>
                 </td>
-                <td>{cartTotal} Rs</td>
+                <td>Rs. {cartTotal} </td>
               </tr>
             </tbody>
           </Table>

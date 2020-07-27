@@ -67,9 +67,12 @@ function Shop() {
                   <Card>
                     {/*<Card.Header>Featured</Card.Header>*/}
                     <Card.Body>
-                      <Card.Img variant="top" src={products.image} />
+                      <Card.Img
+                        variant="top"
+                        src={process.env.PUBLIC_URL + products.image}
+                      />
                       <Card.Title>{products.name}</Card.Title>
-                      <Card.Text>{products.price} Rs</Card.Text>
+                      <Card.Text>Rs. {products.price}</Card.Text>
                     </Card.Body>
                     <Card.Footer className="">
                       {alreadyAdded ? (

@@ -1,12 +1,12 @@
 [
   {
-    "name": "Dark Chocolate",
+    "name": "Dark Chocolate brownie",
     "id": 1,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
     "price": "10",
     "hero": "OMG This just came out today!",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "brownie.jpg"
   },
   {
     "name": "Dark ChocoBar",
@@ -15,7 +15,7 @@
     "detail": "Lorem ipsum dolor sit amet",
     "price": "600",
     "info": "This is the latest and greatest product from Derp corp.",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "dark-chok.jpg"
   },
   {
     "name": "HazelNut Chocolate",
@@ -24,7 +24,7 @@
     "detail": "Lorem ipsum dolor sit amet",
     "price": "99",
     "offer": "BOGOF",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "chocolate-trail.jpg"
   },
   {
     "name": "Almond Chocolate",
@@ -32,7 +32,7 @@
     "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",
     "price": "5",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "cho-peanut.jpg"
   },
   {
     "name": "Chocolate Dark truffle",
@@ -40,16 +40,16 @@
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
     "price": "50",
-    "offer": "No srsly GTFO",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "offer": "BOGOF",
+    "image": "round-cho.jpg"
   },
   {
-    "name": "Dark Chocolate sauce",
+    "name": "Dark Chocolate bar",
     "id": 6,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
     "price": "100",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "health-food.jpg"
   },
   {
     "name": "caramel nuts and chocolate",
@@ -59,6 +59,6 @@
     "price": "240",
     "info": "This is the latest and greatest product from Derp corp.",
     "offer": "info with offer",
-    "image": "http://placehold.it/300x300/999/CCC"
+    "image": "fruit-nut.jpg"
   }
 ]
