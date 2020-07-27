@@ -17,7 +17,7 @@ const Home = () => {
           </Button>
         </div>
         <div className="">
-          <img src={bg} className="bgimg"></img>
+          <img src={bg} className="bgimg" alt="chocolate-broken"></img>
         </div>
       </div>
       <div id="shopdiv" className="shopdiv">

@@ -13,7 +13,7 @@ const NaviBar = () => {
     <>
       <Navbar expand="lg" variant="white">
         <Layout className="left-nav-bar">
-          <NavbarBrand href="/">Bertha's Chocolate Factory</NavbarBrand>
+          <NavbarBrand href="/">Bertha's</NavbarBrand>
 
           <NavbarToggle variant="custom" aria-controls="nav-bar" />
 

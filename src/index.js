@@ -9,7 +9,6 @@ import "./fonts/Roboto-Regular.ttf";
 import "./css/index.css";
 import "font-awesome/css/font-awesome.min.css";
 import { CartProvider } from "react-use-cart";
-import Footer from "./components/Footer";
 
 ReactDOM.render(
   <>

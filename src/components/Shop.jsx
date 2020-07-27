@@ -23,7 +23,7 @@ function findQty(data, idToLookFor) {
   }
 }
 function grp(data, group) {
-  var result = new Array();
+  var result = [];
   console.log(data);
   console.log(group);
   for (var i = 0; i < data.length; i++) {

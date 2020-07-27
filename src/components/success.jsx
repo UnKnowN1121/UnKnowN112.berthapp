@@ -6,7 +6,7 @@ const Success = () => {
       <div className=" row align-items-center mt-5">
         <Jumbotron className="col">
           <center>
-            <h1 className="col fa fa-check-circle fa-5x "></h1>
+            <span className="col fa fa-check-circle fa-5x "></span>
             <br></br>
             <h2>Success! Order Has been Placed</h2>
           </center>
