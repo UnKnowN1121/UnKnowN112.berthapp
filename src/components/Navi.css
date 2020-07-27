@@ -3,8 +3,9 @@ nav .container {
   margin-left: 1em;
   padding: 0.5em;
   border-radius: 50px;
-  font-family: "ubuntu";
+  font-family: "Roboto";
   background: #ffffff; /* fallback for old browsers */
+  box-shadow: 0px 0px 10px -2px;
 }
 .navbar {
   position: sticky;
@@ -14,15 +15,16 @@ nav .container {
 }
 
 .nav-item {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   nav .container {
     width: 100%;
     margin-left: auto;
     border-radius: unset;
     padding: auto;
+    box-shadow: unset;
   }
   .navbar {
     background: #ffffff;
@@ -38,12 +40,11 @@ nav .container {
 }
 
 .navbar-brand {
-  font-family: "OmTeloletOm";
+  font-family: "Roboto";
   padding-left: 2em;
 }
 .cartCount {
   border-radius: 50px;
-  font-family: "ubuntu";
   background: #ffffff; /* fallback for old browsers */
   margin-right: 7em;
 }
@@ -63,6 +64,19 @@ a:hover,
 .navbar-toggler:hover {
   color: #ff2525;
 }
+
 .fa-check-circle {
   color: green;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #fa7337;
+  color: #ffffff;
+  cursor: pointer;
 }

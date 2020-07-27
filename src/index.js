@@ -5,7 +5,7 @@ import App from "./App";
 import "./fonts/OmTeloletOm.ttf";
 import "./fonts/OmTeloletOm.otf";
 import "./fonts/Ubuntu-Bold.ttf";
-import "./fonts/Ubuntu-Regular.ttf";
+import "./fonts/Roboto-Regular.ttf";
 import "./css/index.css";
 import "font-awesome/css/font-awesome.min.css";
 import { CartProvider } from "react-use-cart";

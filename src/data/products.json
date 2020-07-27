@@ -1,6 +1,6 @@
 [
   {
-    "name": "Dark Chocolate brownie",
+    "name": "Dark Chocolate Brownie",
     "id": 1,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
@@ -9,7 +9,7 @@
     "image": "brownie.jpg"
   },
   {
-    "name": "Dark ChocoBar",
+    "name": "Dark Chocobar",
     "id": 2,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
@@ -18,7 +18,7 @@
     "image": "dark-chok.jpg"
   },
   {
-    "name": "HazelNut Chocolate",
+    "name": "Hazelnut Chocolate",
     "id": 3,
     "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",
@@ -35,7 +35,7 @@
     "image": "cho-peanut.jpg"
   },
   {
-    "name": "Chocolate Dark truffle",
+    "name": "Chocolate Dark Truffle",
     "id": 5,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
@@ -44,7 +44,7 @@
     "image": "round-cho.jpg"
   },
   {
-    "name": "Dark Chocolate bar",
+    "name": "Dark Chocolate Bar",
     "id": 6,
     "group": "dark",
     "detail": "Lorem ipsum dolor sit amet",
@@ -52,7 +52,7 @@
     "image": "health-food.jpg"
   },
   {
-    "name": "caramel nuts and chocolate",
+    "name": "Caramel Nuts and Chocolate",
     "id": 7,
     "group": "nuts",
     "detail": "Lorem ipsum dolor sit amet",

@@ -9,15 +9,36 @@
 }
 .fullscreendiv div span {
   color: #ffffff;
-  font-family: ubuntu-reg;
 }
 .float-right {
 }
+.btn-browse {
+  border-radius: 3em;
+  background-color: #ffffff;
+  font-weight: 600;
+  border: none;
+  color: #fa3a2c;
+  margin-top: 10%;
+}
+.btn-browse:hover {
+  color: #fff;
+  background-color: #fa5c32;
+}
 .float-left {
-  margin-top: 18%;
+  margin-top: 10%;
+  padding-right: 10%;
+}
+@media (max-width: 800px) {
+  .float-left {
+    padding-right: unset;
+    padding-bottom: 4em;
+  }
+  .fullscreendiv img {
+    height: 50vh;
+  }
 }
 .bgimg {
-  height: 27em;
+  height: 35em;
 }
 .shopdiv {
   height: 100%;
